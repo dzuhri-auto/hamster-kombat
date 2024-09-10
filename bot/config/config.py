@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     API_KEY: str
 
     MIN_AVAILABLE_ENERGY: int = 100
-    SLEEP_BY_MIN_ENERGY: list[int] = [600, 1000]
+    SLEEP_BY_MIN_ENERGY: list[int] = [1000, 1800]
 
     ACTIVATE_TURBO_TAPS: bool = True
     ADD_TAPS_ON_TURBO: int = 2500
